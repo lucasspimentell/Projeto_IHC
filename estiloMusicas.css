@@ -1,0 +1,108 @@
+/*estilo da cifra*/
+#cifra {
+
+    font-size: 15px;
+    margin: auto;
+    width: 570px;
+    box-shadow: 2px 5px 15px black;
+    border: 2px solid rgba(0, 0, 0, 0.307);
+}
+
+/*estilos dos botôes*/
+.button {
+    font-size: 17px;
+    width: 90px;
+    height: 35px;
+    background-color: rgba(17, 88, 165, 0.77);
+    color: rgb(255, 255, 255);
+    border-radius: 8px;
+
+}
+
+/*aqui deixei os botôes fixos */
+#idioma {
+    border-radius: 10px;
+    position: fixed;
+    background-color: rgb(213, 226, 238);
+    width: 450px;
+    top: 0;
+    left: 0;
+    padding: 10px;
+
+}
+/*para que a cifra fique mais em baixo*/
+body {
+    padding: 150px;
+}
+
+#tradu {
+
+    font-size: 15px;
+    margin: auto;
+    width: 570px;
+    box-shadow: 2px 5px 15px black;
+    border: 2px solid rgba(0, 0, 0, 0.307);
+    
+}
+
+/*REPONSIVIDADE*/
+
+
+@media screen and (max-width:600px){
+
+    #cifra {
+       
+     
+        font-size: 0.9em;
+        margin-left: 0;
+        margin-top: 40%;
+        width: 100%;
+        box-shadow: 2px 5px 15px black;
+        border: 2px solid rgba(0, 0, 0, 0.307);
+        padding: 0;
+    }
+    
+    /*estilos dos botôes*/
+    .button {
+        font-size: 17px;
+        width: 90px;
+        height: 35px;
+        background-color: rgba(17, 88, 165, 0.77);
+        color: rgb(255, 255, 255);
+        border-radius: 8px;
+    
+    }
+    
+    /*aqui deixei os botôes fixos */
+    #idioma {
+        border-radius: 10px;
+        position: fixed;
+        background-color: rgb(213, 226, 238);
+        width: 65%;
+        height: 12%;
+        top: 0;
+        left: 0;
+        padding: 0px;
+    
+    }
+    /*para que a cifra fique mais em baixo*/
+    body {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    
+    #tradu {
+    
+        font-size: 1px;
+        margin: auto;
+        width: 570px;
+        box-shadow: 2px 5px 15px black;
+        border: 2px solid rgba(0, 0, 0, 0.307);
+        
+    }
+    h1{
+        font-size: 1.2em;
+    }
+    
+}

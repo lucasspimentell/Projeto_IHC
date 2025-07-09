@@ -1,0 +1,244 @@
+body {
+   background-image: url("imagens/parede1.jpg");
+   background-color: rgb(231, 239, 239);
+}
+
+#titulo {
+   color: rgb(1, 81, 150);
+   text-align: center;
+   font-family: cursive;
+   font-size: 50px;
+}
+
+#texto {
+
+   color: #00035d;
+
+   width: 1000px;
+   margin-top: 100px;
+   padding: 10px;
+
+
+   font-size: 30px;
+   font-family: cursive;
+
+}
+
+#container {
+
+
+
+   width: 900px;
+   height: 590px;
+   margin-left: 500px;
+   display: flex;
+
+
+
+
+}
+
+footer {
+   color: rgb(1, 32, 59);
+   padding: 0px;
+   text-align: center;
+   font-style: italic;
+}
+
+#musicas {
+   text-align: end;
+   width: 1000px;
+   background-color: rgba(75, 78, 78, 0.221);
+   align-content: center;
+   border-radius: 20px;
+
+
+}
+
+#musica1,
+#musica2,
+#musica3,
+#musica4,
+#musica5,
+#musica6,
+#musica7,
+#musica8 {
+   margin: 4px;
+   width: 550px;
+   height: 60px;
+   background-color: rgba(17, 88, 165, 0.77);
+   font-family: cursive;
+   font-size: 20px;
+   text-decoration: none;
+   text-align: left;
+   border-radius: 20px;
+   color: rgb(255, 255, 255);
+   box-shadow: 0px 0px 3px rgb(255, 255, 255);
+
+
+}
+
+#musica1:hover,
+#musica2:hover,
+#musica3:hover,
+#musica4:hover,
+#musica5:hover,
+#musica6:hover,
+#musica7:hover,
+#musica8:hover {
+   background-color: rgb(124, 194, 218);
+   /* Muda a cor de fundo ao passar o mouse */
+   transition: all;
+}
+
+#bandeira {
+   margin-left: 70px;
+
+}
+
+#list {
+   color: #00035d;
+   padding: 10px;
+   font-size: 25px;
+   font-family: cursive;
+}
+
+/*REPONSIVIDADE*/
+
+@media screen and (max-width: 600px) {
+
+   * {
+      margin: 0;
+      padding: 0;
+   }
+
+   body {
+      
+      background-image: url("imagens/parede1.jpg");
+      background-color: rgb(148, 184, 215);
+      background-blend-mode: overlay; 
+      width: 100%;
+      height: 100%;
+      display: block;
+
+   }
+
+   #titulo {
+
+      color: rgb(1, 81, 150);
+      text-align: center;
+      font-family: cursive;
+      font-size: 2em;
+   }
+
+   #texto {
+
+      color: #00035d;
+      width: 100%;
+      height: 25%;
+      margin-top: 0px;
+      padding: 0px;
+      display: block;
+     
+      font-size: 1em;
+      font-family: cursive;
+      text-align: center;
+      
+
+   }
+
+   #container {
+
+
+    
+      width: 100%;
+      height: 45rem;
+      margin-left: 0px;
+      display: block;
+
+
+
+
+   }
+
+   footer {
+    
+      height: 100%;
+      color: rgb(1, 32, 59);
+      padding: 0px;
+      text-align: center;
+      font-style: italic;
+   }
+
+   #musicas {
+     margin: auto;
+     
+      width: 90%;
+      height: 70%;
+      background-color: rgba(75, 78, 78, 0.221);
+      border-radius: 20px;
+      background-color: rgb(183, 194, 227);
+     justify-content: center;
+
+   }
+
+   #musica1,
+   #musica2,
+   #musica3,
+   #musica4,
+   #musica5,
+   #musica6,
+   #musica7,
+   #musica8 {
+      margin-left: 0;
+      width: 90%;
+      height: 10%;
+      background-color: rgba(17, 88, 165, 0.77);
+      font-family: cursive;
+      font-size: 15px;
+      text-decoration: none;
+      text-align: left;
+      border-radius: 20px;
+      color: rgb(255, 255, 255);
+      box-shadow: 0px 0px 3px rgb(255, 255, 255);
+
+
+
+   }
+
+   #musica1:hover,
+   #musica2:hover,
+   #musica3:hover,
+   #musica4:hover,
+   #musica5:hover,
+   #musica6:hover,
+   #musica7:hover,
+   #musica8:hover {
+      background-color: rgb(88, 177, 207);
+      /* Muda a cor de fundo ao passar o mouse */
+      transition: all;
+   }
+
+   #bandeira {
+      justify-content: center;
+     
+     margin: auto;
+     margin-bottom: 5%;
+     width: 25%;
+
+   }
+
+   #list {
+      
+     
+      color: #00035d;
+      padding: 5px;
+      margin: 0;
+      font-size: 1em;
+      font-family: cursive;
+   }
+   hr{
+      margin: 2%;
+   }
+
+}
